@@ -3485,3 +3485,30 @@ input, select, textarea {
 			}
 
 	}
+
+
+.headshot {
+	border-radius: 50%;
+}
+
+.skills-logos-div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.logo-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.skills-logo {
+	max-width: 8vw;
+	max-height: 8vw;
+	width: auto;
+	height: auto;
+	margin: 1vw;
+}
